@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Printer Frontend</title></head>
+<body>
+<h1>Printer demo</h1>
+<div id="printers"></div>
+<script>
+// Minimal demo to list printers
+fetch('/printers', {headers:{'X-API-Token':'change_this_token'}}).then(r=>r.json()).then(console.log).catch(console.error)
+</script>
+</body>
+</html>

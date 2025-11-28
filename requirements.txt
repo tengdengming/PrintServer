@@ -1,0 +1,7 @@
+fastapi==0.95.2
+"uvicorn[standard]"==0.22.0
+python-multipart==0.0.6
+pydantic==1.10.12
+pywin32==305; platform_system == 'Windows'
+Pillow==10.0.1
+pymupdf==1.22.0

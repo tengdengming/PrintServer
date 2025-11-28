@@ -1,3 +1,0 @@
-# Plan
-
-Milestones and architecture.
